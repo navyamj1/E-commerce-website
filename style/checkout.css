@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.navbar{
+    height: 30px;
+    padding: 10px 20px ;
+    background-color: rgb(238, 238, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap:15px;
+}
+.icons img{
+    height:24px;
+    width:24px;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+.progress_bar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.step{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #c6808b;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.step.active{
+    background:  rgb(238, 238, 253);
+}
+main{
+    display: flex;
+    gap: 20px;
+}
+.form_section{
+    flex: 2;
+}
+.order_summary{
+    flex: 1;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+h2{
+margin: 20px 0;
+}
+.form_group{
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+input, select, button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button{
+    background:rgb(238, 238, 253);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+button:hover{
+    background: #c6808b;
+}
